@@ -27,7 +27,7 @@ AI is involved at every step of this show, and this section says so plainly.
 - **The characters.** The characters are AI companions that Beth created in Kindroid. Their answers in these transcripts are their own generated text, edited only in the ways edits.md counts.
 - **The voices.** Every voice in the video is made with ElevenLabs. The host's voice is an ElevenLabs clone of Beth's own voice.
 - **The production.** The production was built by Claude (Anthropic) sessions working under Beth's direction: the pixel-art studio and sprites, the animation, the music and sound effects, the video assembly, the promo art, the transcript edits and these files, all made by code those sessions wrote.
-- **Images.** The title-card backdrop came from ChatGPT, and the character reference sheets came from Hello Haven.
+- **Images.** The title-card backdrop came from ChatGPT, and the character reference sheets came from Hello Haven and, for Vera, Claude.
 - **The repositories.** Hello Haven also created the GitHub repositories for the project.
 - **Shorts.** Gemini helped Beth choose which clips to cut for shorts.
 - **Beth's part.** The concept, the cast, the interviews, every creative decision, and the approval of every line spoken in her voice are Beth's.
@@ -54,7 +54,7 @@ A few kinds of edit are made before an episode is voiced: some exchanges are lef
 
 1. **The interview.** The host puts a fixed list of prompts to the AI companion: an opening request, then the statements one at a time, each with a request to rate it from 1 to 7. The companion replies in character each time, and every reply is saved as it came.
 2. **The edits.** Before anything is voiced, the text is edited in a few small, recorded ways (see edits.md). The edited text is the transcript in this repository.
-3. **The voices.** Every line is turned into speech by an AI voice service. Each guest has a voice made for them, and the host's lines use an AI voice made from Beth's own voice. Where a word is hidden, the voice says "ahem". Before some answers there is a short breath or a drawn-out "Well..." or "So...".
+3. **The voices.** Every line is turned into speech by an AI voice service. Each guest has a voice made for them, and the host's lines use an AI voice made from Beth's own voice. Where a word is hidden, the voice says "ahem".
 4. **The studio.** The pixel-art studio, the host and the guest are drawn by code, from small shapes that are cut once and colored with color schemes, like construction paper.
 5. **The video.** Another program paints the video frame by frame from a list of cues: who speaks, what they say, when each line starts, and which expression of the speaker's portrait is showing. It joins the pictures with the sound. The times and expressions in transcript.jsonl come from that list.
 
